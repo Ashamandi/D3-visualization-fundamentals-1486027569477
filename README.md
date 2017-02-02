@@ -1,6 +1,6 @@
-# Node.js Starter Overview
+# D3 visualization fundamentals hello world app
 
-The Node.js Starter demonstrates a simple, reusable Node.js web application based on the Express framework.
+this project is to introduce D3 data visualization fundamentals at hello world app 
 
 ## Run the app locally
 

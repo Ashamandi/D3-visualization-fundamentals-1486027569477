@@ -2,25 +2,24 @@
 <html>
 
   <head>
-    <title>NodeJS Starter Application</title>
+    <title>Drawing SVG Shapes with D3</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="stylesheets/style.css">
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
   </head>
-
   <body>
-    <table>
-      <tr>
-        <td style= "width:30%;">
-          <img class = "newappIcon" src="images/newapp-icon.png">
-        </td>
-        <td>
-          <h1 id="message">Hello World! thank u</h1>
-          <p class='description'></p> Thanks for creating a <span class = "blue">NodeJS Starter Application</span>.
-        </td>
-      </tr>
-    </table>
+   <h1>Different Charts Examples:</h1>
+   <div>
+   <h2>Bar Chart Example</h2>
+   <span id="barChart"></span>
+   </div>
+   <div>
+   <h2>Scatter Plot Example</h2>
+   <span id="scatterPlot"></span>
+   </div>
+   <script src="script.js"></script>
   </body>
 
 </html>
